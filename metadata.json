@@ -1,0 +1,8 @@
+{
+  "name": "Sphera Resilience Solutions",
+  "description": "Premium consulting firm specializing in forestry, environment, and climate change resilience. Building sustainable systems and delivering measurable environmental impact through science-based solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
