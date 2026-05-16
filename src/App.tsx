@@ -5,6 +5,10 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import heroImage from './assets/images/hero_forest_mist_1778971590935.png';
+import mangroveImage from './assets/images/mangrove_restoration_1778971609002.png';
+import techImage from './assets/images/environmental_data_tech_1778971625155.png';
+
 import { 
   TreePine, 
   Droplet, 
@@ -82,17 +86,17 @@ const projects = [
   {
     title: "Mangrove Restoration Program",
     category: "Nature-Based Solutions",
-    image: "/src/assets/images/mangrove_restoration_1778971609002.png",
+    image: mangroveImage,
   },
   {
     title: "Peatland Monitoring System",
     category: "Spatial Mapping & MRV",
-    image: "/src/assets/images/environmental_data_tech_1778971625155.png",
+    image: techImage,
   },
   {
     title: "Low Carbon Development Initiative",
     category: "Climate Consulting",
-    image: "/src/assets/images/hero_forest_mist_1778971590935.png",
+    image: heroImage,
   },
 ];
 
@@ -228,7 +232,7 @@ const Hero = () => {
         >
           <div className="aspect-[4/5] bg-teal rounded-t-full overflow-hidden shadow-2xl relative">
             <img 
-              src="/src/assets/images/hero_forest_mist_1778971590935.png" 
+              src={heroImage}
               className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply" 
               alt="Sphera Resilience" 
             />
@@ -271,7 +275,7 @@ const About = () => {
           >
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-sage/20 rounded-full blur-3xl" />
             <img 
-              src="/src/assets/images/environmental_data_tech_1778971625155.png" 
+              src={techImage}
               alt="Sphera Mission" 
               className="rounded-3xl shadow-2xl relative z-10 w-full object-cover aspect-[4/3]" 
             />
